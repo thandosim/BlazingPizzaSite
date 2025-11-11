@@ -1164,11 +1164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizzaSite\\BlazingPizza.csproj",
+      "projectUniqueName": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizza\\BlazingPizza.csproj",
       "projectName": "BlazingPizza",
-      "projectPath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizzaSite\\BlazingPizza.csproj",
+      "projectPath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizza\\BlazingPizza.csproj",
       "packagesPath": "C:\\Users\\MOET-WB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizzaSite\\obj\\",
+      "outputPath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizza\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MOET-WB\\AppData\\Roaming\\NuGet\\NuGet.Config"

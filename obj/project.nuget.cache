@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/2Rxn8iw7ss=",
+  "dgSpecHash": "pqbvY7c4ovc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizzaSite\\BlazingPizza.csproj",
+  "projectFilePath": "C:\\Users\\MOET-WB\\Documents\\byu\\cse325\\tutorial\\BlazingPizza\\BlazingPizza.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MOET-WB\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "C:\\Users\\MOET-WB\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
