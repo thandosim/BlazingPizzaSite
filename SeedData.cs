@@ -61,7 +61,7 @@ namespace BlazingPizza
                     BasePrice = 9.99m,
                     ImageUrl = "img/pizzas/margherita.jpg",
                 },
-                new()
+                new PizzaSpecial()
                 {
                     Id = 9,
                     Name = "Margherita Family Size",
