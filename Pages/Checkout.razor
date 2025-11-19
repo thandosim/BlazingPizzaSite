@@ -1,5 +1,4 @@
 @page "/checkout"
-@using BlazingPizza.Services
 @inject OrderState OrderState
 @inject HttpClient HttpClient
 @inject NavigationManager NavigationManager
@@ -14,7 +13,7 @@
                     <strong>
                         @(pizza.Size)"
                         @pizza.Special.Name
-                        (E@pizza.GetFormattedTotalPrice())
+                        (£@pizza.GetFormattedTotalPrice())
                     </strong>
                 </p>
             }
@@ -22,20 +21,19 @@
             <p>
                 <strong>
                     Total price:
-                    E@Order.GetFormattedTotalPrice()
+                    £@Order.GetFormattedTotalPrice()
                 </strong>
             </p>
         </div>
     </div>
 
     <button class="checkout-button btn btn-warning" @onclick="PlaceOrder" disabled=@isSubmitting>
-  Place order
-</button>
+      Place order
+    </button>
 </div>
 
 @code {
     Order Order => OrderState.Order;
-
     bool isSubmitting;
 
     async Task PlaceOrder()
@@ -44,6 +42,7 @@
         var response = await HttpClient.PostAsJsonAsync(NavigationManager.BaseUri + "orders", OrderState.Order);
         var newOrderId= await response.Content.ReadFromJsonAsync<int>();
         OrderState.ResetOrder();
-        NavigationManager.NavigateTo($"/myorders/{newOrderId}");
-    }
+        NavigationManager.NavigateTo($"myorders/{newOrderId}");
+    } 
+
 }

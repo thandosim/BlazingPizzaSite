@@ -1,22 +1,14 @@
 ﻿@import url('font/quicksand.css');
 
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
-}
-
 body, html {
     height: 100%;
 }
 
 body {
-    display: flex;
     padding-top: 5rem;
     flex-direction: column;
     font-family: 'quicksand';
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 form {
@@ -54,8 +46,7 @@ form {
 
 .content {
     display: flex;
-    flex-grow: 1;
-    height: 90%;
+    height: 100%;
     z-index: 1;
     background-color: white;
 }
@@ -208,7 +199,7 @@ form {
     }
 
 .price::before {
-    content: 'E';
+    content: '£';
     font-weight: 300;
     font-size: 1.2rem;
     margin-right: 0.2rem;
@@ -260,7 +251,7 @@ form {
     }
 
         .order-total .total-price::before {
-            content: 'E';
+            content: '£';
             font-weight: 300;
             margin: 0 0.1rem 0 0.4rem;
         }
@@ -317,7 +308,7 @@ form {
 }
 
     .item-price::before {
-        content: 'E';
+        content: '£';
         font-weight: 100;
         margin-right: 0.3rem;
     }
@@ -464,7 +455,7 @@ form {
 }
 
 .dialog .topping-price::before {
-    content: 'E';
+    content: '£';
 }
 
 .delete-topping {
